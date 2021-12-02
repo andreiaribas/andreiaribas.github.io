@@ -1,0 +1,35 @@
+.idiomas {
+  background-color: #696969;
+}
+
+.idiomas-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3.75rem 6.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.idiomas-quadrados {
+  flex: 1;
+  max-width: 16rem;
+  position: relative;
+  background-color: #26222a;
+  color: #fff;
+  border-radius: 0.75rem;
+  padding: 1.875rem;
+}
+
+.idiomas-quadrados h2 {
+  font-size: 2.25rem;
+  line-height: 2.8rem;
+}
+
+.idioma-nivel {
+  line-height: 1.75rem;
+  color: #c273f2;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,67 @@
+.contato {
+  background-color: #d9d9d9;
+}
+
+.contato-container {
+  display: grid;
+  position: relative;
+  padding: 3.75rem 6.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contato-container h2 {
+  color: #303030;
+  font-size: 2.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.frase {
+  color: #696969;
+  margin-bottom: 1.25rem;
+}
+
+.emailtel {
+  position: relative;
+}
+
+.emailtel p {
+  color: #4d4d4d;
+  font-size: 1.12rem;
+  line-height: 1.33rem;
+  margin-top: 1rem;
+  padding-left: 2.25rem;
+}
+
+.email::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background: url("../img/contato-email.svg") no-repeat center;
+  top: 0.7rem;
+  left: -0.2em;
+}
+
+.cel::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: url("../img/contato-whatsapp.svg") no-repeat center;
+  top: 3rem;
+  left: -0.2em;
+}
+
+.contato-container::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: url("../img/enfeito-bottom.svg") no-repeat center;
+  top: 1rem;
+  right: 0rem;
+}

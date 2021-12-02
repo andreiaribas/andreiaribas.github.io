@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andréia - Front End</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="header-logo">
+        <img src="./img/logo-flor.svg" alt="logo">
+        <h1>Andréia Ribas</h1>
+      </div>
+      <nav>
+        <ul class="header-menu">
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <article class="intro" aria-label="Sobre mim">
+    <div class="intro-container">
+      <section class="perfil">
+        <img src="./img/foto-perfil.png">
+        <div class="foto-descricao">
+          <p>25 anos</p>
+          <p>Belo Horizonte, MG</p>
+        </div>
+      </section>
+      <section class="profissoes" aria-label="Profissões">
+        <ul>
+          <li class="intro-itens">Web Designer</li>
+          <li class="intro-itens">Front End</li>
+          <li class="intro-itens">UI/UX Designer</li>
+          <li class="intro-itens">Atriz</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+
+  <article class="formacao" aria-label="Formação" id="formacao">
+    <ul class="formacao-container">
+      <li class="formacao-quadrados" aria-labelledby="form-um">
+        <h2 id="form-um">Desenvol&hyphen;vedora Web</h2>
+        <img src="./img/formacao-web.svg">
+        <div class="descricao">
+          <p class="formacao-descricao">Curso Ead Pitágoras</p>
+          <p class="formacao-descricao">Tecnólogo</p>
+        </div>
+        <p class="formacao-ano">Início fev/2022</p>
+      </li>
+
+      <li class="formacao-quadrados" aria-labelledby="form-dois">
+        <h2 id="form-dois">UI/UX Designer</h2>
+        <img src="./img/formacao-frontend.svg">
+        <h3>Front End</h3>
+        <div class="descricao">
+          <p class="formacao-descricao">Curso online Origamid</p>
+          <p class="formacao-descricao">240h</p>
+        </div>
+        <p class="formacao-ano">Dez/2021</p>
+      </li>
+
+      <li class="formacao-quadrados" aria-labelledby="form-tres">
+        <h2 id="form-tres">Atriz Profissional</h2>
+        <img src="./img/formacao-teatro.svg">
+        <h3>Com DRT</h3>
+        <p class="formacao-detalhe">MG: 13750</p>
+        <div class="descricao">
+          <p class="formacao-descricao">Espaço Cênico Rick Alves</p>
+          <p class="formacao-descricao">PUC-MG Teatro</p>
+        </div>
+        <p class="formacao-ano">Ago/2021</p>
+      </li>
+    </ul>
+  </article>
+
+
+  <article class="habport">
+    <div class="habport-container">
+      <section class="habilidades" aria-labelledby="habilidades-titulo">
+        <div class="habilidades-container">
+          <h1 id="habilidades-titulo">Habilidades</h1>
+          <ul class="lista-habilidades">
+            <h2>Programas</h2>
+            <li class="item-habilidades">Photoshop</li>
+            <li class="item-habilidades">Figma</li>
+          </ul>
+          <ul class="lista-habilidades2">
+            <h2>Linguagens</h2>
+            <li class="item-habilidades">HTML, CSS</li>
+            <li class="item-habilidades">Javascript</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="portfolio" aria-labelledby="portfolio-titulo" id="portfolio">
+        <div class="portfolio-container">
+          <h1 id="portfolio-titulo">Portfólio</h1>
+        </div>
+      </section>
+    </div>
+  </article>
+
+
+  <article class="idiomas" aria-label="Idiomas">
+    <ul class="idiomas-container">
+      <li class="idiomas-quadrados" aria-labelledby="idioma-um">
+        <h2 id="idioma-um">Inglês</h2>
+        <p class="idioma-nivel">Avançado</p>
+      </li>
+
+      <li class="idiomas-quadrados" aria-labelledby="idioma-um">
+        <h2 id="idioma-um">Espanhol</h2>
+        <p class="idioma-nivel">Intermediário</p>
+      </li>
+
+      <li class="idiomas-quadrados" aria-labelledby="idioma-um">
+        <h2 id="idioma-um">Japonês</h2>
+        <p class="idioma-nivel">Básico - Intermediário</p>
+      </li>
+    </ul>
+  </article>
+
+
+  <footer class="contato" aria-labelledby="titulo-contato" id="contato">
+    <div class="contato-container">
+      <h2 id="titulo-contato">Contato</h2>
+      <p class="frase">Estou disponível para novos projetos</p>
+      <div class="emailtel">
+        <p class="email">andreia.nyan@gmail.com</p>
+        <p class="cel">+55 31 9 9807-1944</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

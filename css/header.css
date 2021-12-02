@@ -1,0 +1,76 @@
+.header {
+  font-family: Sniglet;
+  color: #4d4d4d;
+  background-color: #fafafa;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 6.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-right: 1rem;
+  margin-right: auto;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+.header-logo h1 {
+  font-size: 3.5rem;
+  color: #4d4d4d;
+  justify-self: center;
+}
+
+.header-logo img {
+  width: 55px;
+  height: 55px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-left: auto;
+}
+
+.header-menu a {
+  font-size: 1.75rem;
+  color: #4d4d4d;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.header-container,
+.header-logo,
+.header-menu {
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1144px) {
+  .header-logo {
+    min-width: 1000px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header-logo {
+    min-width: initial;
+  }
+}
+
+/* Falta só media query para ajustar o header em tamanhos menores que 500px */

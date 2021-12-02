@@ -1,0 +1,135 @@
+.habport {
+  background-image: linear-gradient(to right, #e6e3e8 42%, #f5f5ed 0%);
+}
+
+.habport-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3.75rem 6.5rem;
+}
+
+.habilidades h1 {
+  color: #303030;
+  line-height: 4.9rem;
+  font-size: 3.5rem;
+}
+
+.habilidades h2 {
+  font-family: Rubik;
+  color: #4d4d4d;
+  font-size: 2.5rem;
+  margin-top: 2.15rem;
+  line-height: 3.1rem;
+}
+
+.habilidades-container {
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  padding-right: 4.3rem;
+}
+
+.item-habilidades {
+  font-family: Rubik;
+  color: #696969;
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 2.62rem;
+}
+
+.portfolio-container {
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  text-align: end;
+  padding-left: 4.3rem;
+}
+
+.portfolio-container h1 {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 1025px) {
+  .habilidades h1,
+  .portfolio-container h1 {
+    font-size: 3rem;
+  }
+  .habilidades h2 {
+    font-size: 2rem;
+  }
+  .item-habilidades {
+    font-size: 1.75rem;
+  }
+  .habport {
+    background-image: linear-gradient(to right, #e6e3e8 42%, #f5f5ed 0%);
+  }
+}
+
+@media (max-width: 904px) {
+  .habport {
+    background-image: none;
+  }
+  .habport-container {
+    display: block;
+    justify-content: center;
+    padding: 0rem 0rem;
+  }
+  .habilidades {
+    background-color: #e6e3e8;
+  }
+
+  .habilidades-container {
+    justify-items: normal;
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    background-color: none;
+  }
+  .lista-habilidades {
+    grid-column: 1 / 2;
+  }
+  .lista-habilidades2 {
+    grid-column: 2 / 3;
+    justify-self: end;
+    text-align: right;
+  }
+  #habilidades-titulo {
+    grid-column: 1 / 3;
+  }
+  .habilidades h2 {
+    margin-top: 1.25rem;
+  }
+  .portfolio {
+    background-color: #f5f5ed;
+  }
+  .portfolio-container {
+    justify-items: normal;
+    display: grid;
+    column-gap: 0rem;
+    grid-template-columns: 1fr;
+    position: relative;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .habilidades-container {
+    column-gap: 0rem;
+    grid-template-columns: 1fr;
+  }
+
+  .lista-habilidades,
+  .lista-habilidades2,
+  #habilidades-titulo {
+    grid-column: 1;
+  }
+  .lista-habilidades2 {
+    justify-self: start;
+    text-align: left;
+  }
+}
