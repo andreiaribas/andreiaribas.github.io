@@ -60,10 +60,15 @@
   justify-items: center;
   text-align: center;
 }
-
 @media (max-width: 1144px) {
   .header-logo {
     min-width: 1000px;
+  }
+}
+
+@media (max-width: 653px) {
+  .header-menu {
+    gap: 1.25rem;
   }
 }
 
@@ -71,6 +76,27 @@
   .header-logo {
     min-width: initial;
   }
+  .header-logo h1 {
+    font-size: 2.5rem;
+  }
+  .header-menu a {
+    font-size: 1.25rem;
+  }
 }
 
-/* Falta só media query para ajustar o header em tamanhos menores que 500px */
+@media (max-width: 451px) {
+  .header-logo h1 {
+    font-size: 2rem;
+  }
+  .header-logo img {
+    width: 2.31rem;
+    height: 2.31rem;
+  }
+}
+
+@media (max-width: 359px) {
+  .header-logo img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
