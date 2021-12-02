@@ -45,7 +45,6 @@
 
 .descricao {
   margin-top: 0.8rem;
-  line-height: 1.5;
   padding-bottom: 2rem;
 }
 
@@ -75,11 +74,47 @@
   right: 1.875rem;
 }
 
+#form-um {
+  hyphens: auto;
+}
+
 @media (max-width: 823px) {
+  .formacao-descricao {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
   .formacao-quadrados {
     max-width: 30rem;
+    min-width: 13.5rem;
   }
-  #form-um {
-    hyphens: none;
+  .formacao-quadrados h2 {
+    font-size: 2.1rem;
+  }
+
+  .formacao-quadrados h3 {
+    font-size: 1.25rem;
+  }
+  .formacao-ano {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .formacao-quadrados {
+    max-width: 30rem;
+    min-width: 13rem;
+  }
+  .formacao-quadrados h2 {
+    font-size: 1.8rem;
+  }
+
+  .formacao-quadrados h3 {
+    font-size: 1.15rem;
+  }
+
+  .formacao-ano {
+    font-size: 1.05rem;
   }
 }

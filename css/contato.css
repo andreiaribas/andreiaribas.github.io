@@ -28,7 +28,6 @@
 .emailtel p {
   color: #4d4d4d;
   font-size: 1.12rem;
-  line-height: 1.33rem;
   margin-top: 1rem;
   padding-left: 2.25rem;
 }
@@ -58,10 +57,65 @@
 .contato-container::before {
   content: "";
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   position: absolute;
   background: url("../img/enfeito-bottom.svg") no-repeat center;
   top: 1rem;
   right: 0rem;
+}
+
+@media (max-width: 660px) {
+  .contato-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .frase {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .emailtel p {
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    padding-left: 2.1rem;
+  }
+  .cel::before {
+    height: 1.8rem;
+    width: 1.8rem;
+    top: 2.5rem;
+    left: -0.2em;
+  }
+  .email::before {
+    height: 1.8rem;
+    width: 1.8rem;
+    top: 0.5rem;
+    left: -0.2em;
+  }
+}
+
+@media (max-width: 550px) {
+  .contato-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .frase {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  .emailtel p {
+    margin-top: 0.6rem;
+    padding-left: 1.9rem;
+  }
+  .cel::before {
+    height: 1.6rem;
+    width: 1.6rem;
+    top: 2.3rem;
+    left: -0.2em;
+  }
+  .email::before {
+    height: 1.6rem;
+    width: 1.6rem;
+    top: 0.5rem;
+    left: -0.2em;
+  }
 }

@@ -17,8 +17,8 @@
 .intro-container:before {
   content: "";
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   background: url("../img/enfeite-top.svg") no-repeat center;
   position: absolute;
   top: 1rem;
@@ -113,5 +113,35 @@
   }
   .foto-descricao {
     justify-items: center;
+  }
+}
+
+@media (max-width: 451px) {
+  .foto-descricao p {
+    font-size: 1rem;
+  }
+  .intro-itens {
+    font-size: 2rem;
+  }
+  .intro-itens::before {
+    width: 0.6rem;
+    height: 0.6rem;
+    top: 1rem;
+    left: -1.4rem;
+  }
+}
+
+@media (max-width: 328px) {
+  .foto-descricao p {
+    font-size: 0.85rem;
+  }
+  .intro-itens {
+    font-size: 1.6rem;
+  }
+  .intro-itens::before {
+    width: 0.5rem;
+    height: 0.5rem;
+    top: 0.85rem;
+    left: -1.3rem;
   }
 }

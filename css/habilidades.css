@@ -14,7 +14,6 @@
 
 .habilidades h1 {
   color: #303030;
-  line-height: 4.9rem;
   font-size: 3.5rem;
 }
 
@@ -23,7 +22,6 @@
   color: #4d4d4d;
   font-size: 2.5rem;
   margin-top: 2.15rem;
-  line-height: 3.1rem;
 }
 
 .habilidades-container {
@@ -38,7 +36,6 @@
   color: #696969;
   font-size: 2.25rem;
   font-weight: 300;
-  line-height: 2.62rem;
 }
 
 .portfolio-container {
@@ -131,5 +128,45 @@
   .lista-habilidades2 {
     justify-self: start;
     text-align: left;
+  }
+  .habilidades h2 {
+    margin-top: 1.8rem;
+  }
+}
+
+@media (max-width: 660px) {
+  .habilidades h1,
+  .portfolio-container h1 {
+    font-size: 2.75rem;
+  }
+  .habilidades h2 {
+    font-size: 1.75rem;
+  }
+  .item-habilidades {
+    font-size: 1.5rem;
+  }
+  .habilidades h2 {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .habilidades h1,
+  .portfolio-container h1 {
+    font-size: 2.5rem;
+  }
+  .habilidades h2 {
+    font-size: 1.65rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .habilidades h1,
+  .portfolio-container h1 {
+    font-size: 2.25rem;
+  }
+  .habilidades h2 {
+    font-size: 1.5rem;
   }
 }

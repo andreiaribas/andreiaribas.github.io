@@ -1,7 +1,8 @@
+@import "./global.css";
 @import "./header.css";
 @import "./intro.css";
 @import "./formacao.css";
 @import "./habilidades.css";
 @import "./idiomas.css";
 @import "./contato.css";
-@import "./global.css";
+@import "./global-fim.css";
