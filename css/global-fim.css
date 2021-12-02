@@ -1,0 +1,47 @@
+@media (max-width: 904px) {
+  .habilidades-container,
+  .intro-container,
+  .contato-container,
+  .formacao-container,
+  .header-container,
+  .idiomas-container,
+  .portfolio-container {
+    padding: 2rem 6.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .habilidades-container,
+  .intro-container,
+  .contato-container,
+  .formacao-container,
+  .header-container,
+  .idiomas-container,
+  .portfolio-container {
+    padding: 2rem 4.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .habilidades-container,
+  .intro-container,
+  .contato-container,
+  .formacao-container,
+  .header-container,
+  .idiomas-container,
+  .portfolio-container {
+    padding: 1.75rem 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .habilidades-container,
+  .intro-container,
+  .contato-container,
+  .formacao-container,
+  .header-container,
+  .idiomas-container,
+  .portfolio-container {
+    padding: 1.5rem 3rem;
+  }
+}
