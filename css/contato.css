@@ -68,7 +68,6 @@
 @media (max-width: 660px) {
   .contato-container h2 {
     font-size: 2.5rem;
-    margin-bottom: 1.25rem;
   }
   .frase {
     font-size: 1.25rem;
@@ -96,7 +95,6 @@
 @media (max-width: 550px) {
   .contato-container h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
   }
   .frase {
     font-size: 1.1rem;
