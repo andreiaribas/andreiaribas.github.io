@@ -75,10 +75,6 @@
   right: 1.875rem;
 }
 
-#form-um {
-  hyphens: manual;
-}
-
 @media (max-width: 823px) {
   .formacao-quadrados {
     max-width: 30rem;
