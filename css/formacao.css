@@ -39,7 +39,7 @@
 .formacao-quadrados h3 {
   font-size: 1.5rem;
   font-weight: normal;
-  font-style: oblique;
+  font-style: italic;
   font-family: Rubik;
 }
 
@@ -60,7 +60,7 @@
   color: #bdbdbd;
   font-size: 1.2rem;
   font-weight: normal;
-  font-style: oblique;
+  font-style: italic;
   font-family: Rubik;
 }
 
@@ -69,7 +69,7 @@
   color: #e8e8e8;
   font-size: 1.13rem;
   font-weight: normal;
-  font-style: oblique;
+  font-style: italic;
   font-family: Rubik;
   bottom: 1.875rem;
   right: 1.875rem;
