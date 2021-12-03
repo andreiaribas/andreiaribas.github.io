@@ -32,15 +32,10 @@
 
 .formacao-quadrados h2 {
   margin: 0.5rem 2rem 1.25rem 0rem;
-  font-size: 2.5rem;
-  font-weight: normal;
 }
 
 .formacao-quadrados h3 {
-  font-size: 1.5rem;
-  font-weight: normal;
   font-style: italic;
-  font-family: Rubik;
 }
 
 .descricao {
@@ -51,25 +46,19 @@
 .formacao-detalhe {
   color: #bdbdbd;
   font-size: 0.9rem;
-  font-weight: normal;
-  font-family: Rubik;
 }
 
 .formacao-descricao {
   color: #bdbdbd;
   font-size: 1.2rem;
-  font-weight: normal;
   font-style: italic;
-  font-family: Rubik;
 }
 
 .formacao-ano {
   position: absolute;
   color: #e8e8e8;
   font-size: 1.13rem;
-  font-weight: normal;
   font-style: italic;
-  font-family: Rubik;
   bottom: 1.875rem;
   right: 1.875rem;
 }

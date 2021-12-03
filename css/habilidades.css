@@ -14,7 +14,6 @@
 
 .habilidades h1 {
   color: #303030;
-  font-size: 3.5rem;
 }
 
 .habilidades h2 {
@@ -44,10 +43,6 @@
   justify-items: center;
   text-align: end;
   padding-left: 4.3rem;
-}
-
-.portfolio-container h1 {
-  font-size: 3.5rem;
 }
 
 @media (max-width: 1025px) {

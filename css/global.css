@@ -1,32 +1,23 @@
 body {
   font-family: Sniglet, Arial, sans-serif;
-  margin: 0rem;
-  font-weight: 400;
 }
 
 a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
-h4,
 p,
-a {
-  margin: 0px;
+a,
+body {
+  margin: 0;
   font-weight: 400;
-}
-
-h1 {
-  font-size: 3.5rem;
-}
-
-ul,
-li {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
 }
 
 img {
@@ -34,9 +25,23 @@ img {
   display: block;
 }
 
+ul,
+li,
 p {
-  font-family: Rubik;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3,
+p {
   font-size: 1.5rem;
-  margin: 0rem;
-  padding: 0rem;
+  font-family: Rubik;
 }

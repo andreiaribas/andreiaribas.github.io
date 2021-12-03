@@ -1,5 +1,4 @@
 .header {
-  font-family: Sniglet;
   color: #4d4d4d;
   background-color: #fafafa;
 }
@@ -24,7 +23,6 @@
 }
 
 .header-logo h1 {
-  font-size: 3.5rem;
   color: #4d4d4d;
   justify-self: center;
 }
