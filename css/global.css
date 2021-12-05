@@ -32,16 +32,47 @@ p {
   padding: 0;
 }
 
+.h1 {
+  font-size: calc(32px + (52 - 32) * ((100vw - 300px) / (1000 - 300)));
+}
+
 h1 {
-  font-size: 3.5rem;
+  font-size: calc(26px + (44 - 26) * ((100vw - 300px) / (1000 - 300)));
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: calc(24px + (34 - 24) * ((100vw - 300px) / (1000 - 300)));
+}
+
+a,
+h3,
+p,
+li {
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1000 - 300)));
+}
+
+.p2 {
+  font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1000 - 300)));
+}
+
+.p3 {
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1000 - 300)));
+}
+
+.p4 {
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1000 - 300)));
 }
 
 h3,
-p {
-  font-size: 1.5rem;
+p,
+.p2,
+.p3 {
   font-family: Rubik;
+}
+
+.ctn {
+  position: relative;
+  padding: 3.75rem 6.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }

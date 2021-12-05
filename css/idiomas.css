@@ -5,12 +5,8 @@
 .idiomas-container {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
   justify-content: center;
   gap: 2rem;
-  padding: 3.75rem 6.5rem;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 .idiomas-quadrados {
@@ -30,34 +26,19 @@
 }
 
 @media (max-width: 500px) {
-  .idiomas-quadrados h2 {
-    font-size: 2rem;
-  }
-
   .idioma-nivel {
     margin-top: 1.25rem;
-    font-size: 1.25rem;
   }
 }
 
 @media (max-width: 460px) {
-  .idiomas-quadrados h2 {
-    font-size: 1.75rem;
-  }
-
   .idioma-nivel {
     margin-top: 1rem;
-    font-size: 1.15rem;
   }
 }
 
 @media (max-width: 350px) {
-  .idiomas-quadrados h2 {
-    font-size: 1.5rem;
-  }
-
   .idioma-nivel {
     margin-top: 1rem;
-    font-size: 1.05rem;
   }
 }

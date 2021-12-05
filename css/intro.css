@@ -4,14 +4,10 @@
 
 .intro-container {
   display: grid;
-  position: relative;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
   column-gap: 5rem;
   align-items: center;
-  padding: 3.75rem 6.5rem;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 .intro-container:before {
@@ -47,7 +43,6 @@
 .intro-itens {
   position: relative;
   color: #141414;
-  font-size: 3.5rem;
 }
 
 .intro-itens::before {
@@ -57,14 +52,8 @@
   height: 1.05rem;
   border-radius: 1rem;
   position: absolute;
-  top: 2rem;
-  left: -2rem;
-}
-
-@media (max-width: 945px) {
-  .intro-itens {
-    font-size: 3rem;
-  }
+  top: 1.5rem;
+  left: -2.1rem;
 }
 
 @media (max-width: 904px) {
@@ -81,12 +70,6 @@
 }
 
 @media (max-width: 767px) {
-  .foto-descricao p {
-    font-size: 1.25rem;
-  }
-  .intro-itens {
-    font-size: 2.5rem;
-  }
   .intro-itens::before {
     width: 0.8rem;
     height: 0.8rem;
@@ -117,12 +100,6 @@
 }
 
 @media (max-width: 451px) {
-  .foto-descricao p {
-    font-size: 1rem;
-  }
-  .intro-itens {
-    font-size: 2rem;
-  }
   .intro-itens::before {
     width: 0.6rem;
     height: 0.6rem;
@@ -132,16 +109,52 @@
 }
 
 @media (max-width: 328px) {
-  .foto-descricao p {
-    font-size: 0.85rem;
-  }
-  .intro-itens {
-    font-size: 1.6rem;
-  }
   .intro-itens::before {
     width: 0.5rem;
     height: 0.5rem;
     top: 0.85rem;
     left: -1.3rem;
+  }
+}
+
+@media (max-width: 355px) {
+  .intro-container:before {
+    content: "";
+    background: none;
+  }
+}
+
+@media (max-width: 653px) {
+  .header-menu {
+    gap: 1.25rem;
+  }
+  .header-logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .perfil img {
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .perfil img {
+    max-width: 16rem;
+    max-height: 16rem;
+  }
+}
+
+@media (max-width: 451px) {
+  .perfil img {
+    max-width: 14rem;
+    max-height: 14rem;
+  }
+}
+
+@media (max-width: 359px) {
+  .perfil img {
+    max-width: 12rem;
+    max-height: 12rem;
   }
 }
