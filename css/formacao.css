@@ -56,13 +56,49 @@
   right: 1.875rem;
 }
 
-#form-um {
-  hyphens: auto;
+#form-um::before {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background: url("/img/formacao-teatro.svg") no-repeat center;
+  top: 1.8rem;
+  right: 2rem;
+}
+
+#form-dois::before {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background: url("/img/formacao-frontend.svg") no-repeat center;
+  top: 1.8rem;
+  right: 2rem;
+}
+
+#form-tres::before {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background: url("/img/formacao-web.svg") no-repeat center;
+  top: 1.8rem;
+  right: 2rem;
+}
+
+#form-quatro::before {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background: url("/img/formacao-web.svg") no-repeat center;
+  top: 1.8rem;
+  right: 2rem;
 }
 
 @media (max-width: 600px) {
   .formacao-quadrados {
-    max-width: 30rem;
+    max-width: 25rem;
     min-width: 13.5rem;
   }
 }
